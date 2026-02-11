@@ -4,15 +4,14 @@ import streamlit as st
 def get_connection():
     return psycopg2.connect(st.secrets["DATABASE_URL"])
 
-'''def get_connection():
-    connection = psycopg2.connect(
-        host="localhost",
-        database="postgres",
-        user="postgres",
-        password="postgres",                               #st.secrets["DB_PASSWORD"],
-        port="5432"
-    )
-    return connection'''
+#def get_connection():
+    #connection = psycopg2.connect(
+     #host="localhost",
+        #database="postgres",
+        #user="postgres",
+        #password="postgres",                               #st.secrets["DB_PASSWORD"],
+        #port="5432")
+    #return connection'''
 
 def insert_personal(first_name,middle_name,last_name,date_of_birth,
                     gender,phone_number,email):
