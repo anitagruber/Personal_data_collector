@@ -46,6 +46,8 @@ Relationships are implemented using primary and foreign keys.
 
 [Open Streamlit App](https://personal-data-collector-anita.streamlit.app)
 
-## Author
+## Authors
 
 Anita Gruber, Zoltán Nagy
+
+Data Analytics Portfolio Project
