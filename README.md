@@ -1,8 +1,5 @@
 # Personal_data_collector
 Production-ready data collection system with relational database design, authentication, admin dashboard and analytics visualization.
-
-# Personal Data Collector App
-
 A full-stack web application built with Streamlit and PostgreSQL.
 
 ## Project Goal
